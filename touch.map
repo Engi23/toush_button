@@ -1,0 +1,26 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+min_time                                                          0x0300       2
+data16                                                            0x0302       2
+data8                                                             0x0304       2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+temp                                                              R4           1
+data                                                              R3           1
+NumB                                                              R6           1
+datakey                                                           R5           1
+rx_ok                                                             R8           1
+N_tout                                                            R7           1
+time                                                              R9,R10       2
+normal_time                                                       R11,R12      2
+N16                                                               R13,R14      2
+flag                                                              GPIOR0.0  1bit
+facsP                                                             GPIOR0.1  1bit
+facsM                                                             GPIOR0.2  1bit
